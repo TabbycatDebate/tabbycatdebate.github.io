@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-position: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    float: bottom;
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+.landing{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 2vw;
+    color: black;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    justify-content: center;
+}
+
+.bluepurple{
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+}
+.cyan{
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background-color: cyan;
+    color: white;
+}
+.danger{
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background-color: #ff3300;
+    color: white;
+}
+
+.tabby-btn{
+    text-decoration: none;
+    padding: 14px 29px 14px 29px;
+    font-size: 25px;
+    border: none;
+    color: white;
+    border-radius: 1000px;
+    transition-duration: 1s;
+}
+
+.tabby-btn:hover{
+    transform: scale(11, 11); 
+    text-decoration: none;
+    margin: 125px;
+    padding: 15px 30px 15px 30px;
+    font-size: 25px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 1000px;
+}
+.sandy {
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background-color: #A0723D;
+}
+.sandy:hover {
+    background-color: #BF9D4F;
+}
+.center{
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.9);
+    padding-right: 50px;
+    text-align: right;
+    border-bottom-style: solid;
+    border-color:rgba(0, 0, 0, 0.3);
+    border-width: 1px;
+  }
+  
+#navbar a {
+    text-decoration: none;
+    float: right;
+    display: block;
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15 15;
+
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.right{
+    float: left;
+    text-align: left;
+    position: absolute;
+    left: 0px;
+    background-color: blueviolet;
+}
+.box{
+    padding: 100px 50px 100px 50px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a{
+    color: #808080;
+    font-weight: bold;
+}
+
+.d-inline-block{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+#involved {
+    list-style: none;
+}
+#involved li {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 1em;
+    padding-right: 1em;
+}

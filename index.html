@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabbycat Debate Association</title>
+    <link rel="icon" type="image/png" href="logo-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="logo-16x16.png" sizes="16x16" />
+    <link rel="mask-icon" href="safari-tab.svg" color="rgb(102, 61, 160)">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="landing">
+        <div class='center'>
+            <img src="logo.svg" />
+            <div style='font-size: 100px; margin: 0px'>Tabbycat Debate</div>
+            <div style='font-size: 25px; margin-bottom: 15px; margin-top: 0px;'>Software for debate tournaments</div>
+        </div>
+    </div>
+    <nav id='navbar' class='bottom'>
+        <a href="#">Donate</a>
+        <a href="#">Join</a>
+        <a href="https://github.com/TabbycatDebate">GitHub</a>
+        <a href="#about" class='right' style="color:aliceblue; padding: 15px 50px; border-radius: 0px 0px 0px 0px;">Learn More</a>
+    </nav>
+    <script>
+    window.onscroll = function() { stickynav() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function stickynav() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+            navbar.classList.remove("bottom")
+        } else {
+            navbar.classList.remove("sticky")
+            navbar.classList.add("bottom")
+        }
+    }
+    </script>
+    </div>
+    <div id="about" class='container-fluid center px-5' style='margin-top:50px'>
+        <div class='row align-items-start'>
+            <div class='col box'>
+                <div style='font-size: 50px;'>About the Association</div>
+                <div style='font-size: 18px;'>The Tabbycat Debate Association was founded in 2020 by Étienne Beaulé, Chuan-Zheng Lee, and Philip Belesky for the openness and sustainability of tabulation software.</div>
+            </div>
+            <div class='col box bluepurple'>
+                <div style='font-size: 50px;'>Our Projects</div>
+                <div style='font-size: 18px;'>We support the development of Tabbycat, software for debate tabulation, as well as other initiatives such as DebateXML.</div>
+            </div>
+        </div>
+        <div class='row align-items-start'>
+            <div class='col box'>
+                <div style='font-size: 50px;'>Why Contribute?</div>
+                <div style='font-size: 18px;'>Donations go towards assuring the long-term viability of our projects and the ecosystem around them, for better debate tournaments!</div>
+            </div>
+            <div class='col box'>
+                <div style='font-size: 50px;'>Non-profit</div>
+                <div style='font-size: 18px;'>We are a non-profit organization based in Québec for the promotion of open-source software in debate. Any debate institution may join.</div>
+            </div>
+        </div>
+        <div style="padding-top: 80px">
+            <div class="center">
+                <div style='font-size: 30px; margin: 25px; margin-bottom: 10px;'>Get Involved!</div>
+                <ul id="involved">
+                    <li><a href="https://github.com/TabbycatDebate/tabbycat">Contribute code, suggestions &amp; report bugs</a></li>
+                    <li><a href="https://crowdin.com/project/tabbycat">Translate Tabbycat</a></li>
+                    <li><a href="#">Become a Member</a></li>
+                    <li><a href="#">Donate</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        2020 - Tabbycat Debate Association &bullet; Contact <a href="mailto:beauleetienne0@gmail.com">Étienne</a> &bullet; Design by Tasdid Tahsin.
+    </footer>
+</body>
+
+</html>
